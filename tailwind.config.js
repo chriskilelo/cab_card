@@ -5,8 +5,20 @@ module.exports = {
     './pages/**/*.{html,js}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'customteal': {
+          300: '#24B3B9',
+          500: '#32B49C',
+          700: '#016972',
+          900: '#00403F',
+        },
+        'customamber': {
+          300: '#FFD876',
+          600: '#E28525',
+        }
+      }
+    },
   },
   plugins: [],
 }
-
